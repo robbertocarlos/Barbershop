@@ -1,0 +1,27 @@
+body{
+	background-image: url(../img/barbershop-index.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.main-header{
+	min-height: 72px;
+	
+	outline: 1px solid #fff;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+	background-color: rgba(191, 191, 191, 0.4);
+}
+
+.main-navigation ul{
+	margin: 0;
+}
+
+.main-navigation li{
+	display: inline-block;
+}
