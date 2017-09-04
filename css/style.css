@@ -189,6 +189,12 @@ body{
 
 	background-color: #ffffff;
 	background: url(../img/index-content-bg-stick.png) no-repeat center center, url(../img/index-content-bg.png);
+
+	font-family: "PTSansNarrowBold", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	text-transform: uppercase;
 }
 
 .index-content::after{
@@ -246,18 +252,13 @@ body{
 .news-preview p{
 	margin: 0;
 	margin-bottom: 1px;
-
-	font-family: "PTSansNarrowBold", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 24px;
-	color: #000000;
-	text-transform: uppercase;
 }
 
 .news-preview time{
 	font-family: "PTSansNarrowRegular", Arial, sans-serif;
 	font-size: 14px;
 	color: #000000;
+	text-transform: none;
 }
 
 .btn{
