@@ -188,7 +188,7 @@ body{
 	margin-bottom: 34px;
 
 	background-color: #ffffff;
-	background-image: url(../img/index-content-bg.png);
+	background: url(../img/index-content-bg-stick.png) no-repeat center center, url(../img/index-content-bg.png);
 }
 
 .index-content::after{
