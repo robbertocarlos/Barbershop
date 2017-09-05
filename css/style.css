@@ -73,7 +73,7 @@ body{
 	display: block;
 	content: "";
 	
-	width: 100%;
+	width: 50px;
 	height: 3px;
 	background-color: #ffffff;
 }
@@ -94,6 +94,8 @@ body{
 }
 
 .login{
+	position: relative;
+
 	display: block;
 	padding: 25px 20px;
 
@@ -103,16 +105,31 @@ body{
 	font-family: "PTSansNarrowBold", Arial, sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
-	
-	/*иконка входа, выполнена в виде фона,  переделать в псевдоэлмент .login, доделать опасити при наведении*/
-	background-image: url(../img/icon-login.png);
-	background-repeat: no-repeat;
-	background-position: 25% center;
 
 }
+.login::before{
+	position: absolute;
+	content: "";
+	left: 22px;
+	top: 50%;
+	transform: translateY(-50%);
 
+	display: block;
+	width: 18px;
+	height: 16px;
+	
+	background-image: url(../img/icon-login.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.3;
+
+}
 .login:hover{
 	background-color: #242424;
+}
+
+.login:hover::before{
+	opacity: 1;
 }
 
 .index-logo{
