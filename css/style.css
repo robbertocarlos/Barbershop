@@ -29,7 +29,7 @@ body{
 	width: 720px;
 	
 	font-size: 0px;
-	font-family: "PTSansNarrowBold", Arial, sans-serif;
+	font-family: "PTSansNarrowBold", "Arial", sans-serif;
 	text-transform: uppercase;
 
 	
@@ -102,7 +102,7 @@ body{
 	color: #ffffff;
 	font-size: 16px;
 	line-height: 20px;
-	font-family: "PTSansNarrowBold", Arial, sans-serif;
+	font-family: "PTSansNarrowBold", "Arial", sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 
@@ -169,7 +169,7 @@ body{
 	display: block;
 	margin-bottom: 73px;
 
-	font-family: "PTSansNarrowBold", Arial, sans-serif;
+	font-family: "PTSansNarrowBold", "Arial", sans-serif;
 	font-size: 30px;
 	color: #f7f4f1;
 	text-transform: uppercase;
@@ -191,7 +191,7 @@ body{
 	content:"";
 }
 .features-item p{
-	font-family: "PTSansNarrowBold", Arial, sans-serif;
+	font-family: "PTSansNarrowBold", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #f7f4f1;
@@ -207,7 +207,7 @@ body{
 	background-color: #ffffff;
 	background: url(../img/index-content-bg-stick.png) no-repeat center center, url(../img/index-content-bg.png);
 
-	font-family: "PTSansNarrowBold", Arial, sans-serif;
+	font-family: "PTSansNarrowBold", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
@@ -248,7 +248,7 @@ body{
 	margin: 0;
 	margin-bottom: 27px;
 
-	font-family: "PTSansNarrowBold", Arial, sans-serif;
+	font-family: "PTSansNarrowBold", "Arial", sans-serif;
 	font-size: 30px;
 	text-transform: uppercase;
 	color: #000000;
@@ -272,7 +272,7 @@ body{
 }
 
 .news-preview time{
-	font-family: "PTSansNarrowRegular", Arial, sans-serif;
+	font-family: "PTSansNarrowRegular", "Arial", sans-serif;
 	font-size: 14px;
 	color: #000000;
 	text-transform: none;
@@ -291,8 +291,8 @@ body{
 
 	text-decoration: none;
 	text-align: center;
-	line-height: 43px;
-	font-family: "PTSansNarrowBold", Arial, sans-serif;
+	line-height: 24px;
+	font-family: "PTSansNarrowBold", "Arial", sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 	text-transform: uppercase;
